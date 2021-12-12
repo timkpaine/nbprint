@@ -57,7 +57,6 @@ def table(df, title='', footnote=''):
 
 def pagenum():
     '''display a page number (latex only)'''
-    # TODO
     return '[pagenum]'
 
 

@@ -54,6 +54,7 @@ class TemplateOverrideMixin:
                     resources['nbcx']['footerrule'] = True
 
                 resources['nbcx']['headers'][tag.replace('nbcx_', '')] = cell
+        print(resources['nbcx']['headers'])
         # ********************************************** #
 
         # ********************************************** #

@@ -46,9 +46,6 @@
 
 @page {
     @top-left-corner {}
-    @top-left {}
-    @top-center {}
-    @top-right {}
     @top-right-corner {}
     @left-top {}
     @left-middle {}
@@ -57,11 +54,6 @@
     @right-middle {}
     @right-bottom {}
     @bottom-left-corner {}
-    @bottom-left {}
-    @bottom-center {}
-    @bottom-right {
-        content: counter(page);
-    }
     @bottom-right-corner {}
 }
 
